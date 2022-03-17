@@ -20,8 +20,8 @@ __all__ = ['get_mean_and_std_yuv', 'init_params', 'mkdir_p', 'AverageMeter']
 sys.path.append(os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__)))))
 
 # from turbojpeg import TurboJPEG
-from datasets.dataset_imagenet_dct import ImageFolderDCT
-import datasets.cvtransforms as transforms
+#from datasets.dataset_imagenet_dct import ImageFolderDCT
+#import datasets.cvtransforms as transforms
 
 
 def get_mean_and_std_dct_resized(dataset, model='mobilenet'):
